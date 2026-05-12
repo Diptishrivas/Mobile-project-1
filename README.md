@@ -74,9 +74,9 @@ npx expo start
 
 ---
 
-## Demo Video
+## live link
 
-Add your demo video link here.
+https://guileless-haupia-e3e48a.netlify.app/
 
 ---
 
