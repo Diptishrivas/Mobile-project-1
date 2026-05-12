@@ -1,15 +1,5 @@
 import React, { useState } from 'react';
-import {
-  View,
-  Text,
-  TextInput,
-  Pressable,
-  StyleSheet,
-  KeyboardAvoidingView,
-  Platform,
-  ImageBackground,
-  Alert,
-} from 'react-native';
+import { View, Text, TextInput, Pressable, StyleSheet, KeyboardAvoidingView, Platform, ImageBackground, Alert } from 'react-native';
 
 const NoteEditorScreen = ({ onGoBack }) => {
   const [title, setTitle] = useState('');

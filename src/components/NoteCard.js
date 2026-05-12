@@ -1,12 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import {
-  View,
-  Text,
-  StyleSheet,
-  Pressable,
-  Animated,
-  Alert,
-} from 'react-native';
+import { View,Text,StyleSheet,Pressable,Animated,Alert} from 'react-native';
 
 const NoteCard = ({ note, isDark, index, onEdit, onDelete }) => {
   const fadeAnim = useRef(new Animated.Value(0)).current;
